@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license              = "MIT"
   s.author               = { "Skylar Schipper" => "ss@schipp.co" }
   s.social_media_url     = "http://twitter.com/skylarsch"
-  s.platforms            = { :ios => "7.1", osx: => "10.9" }
+  s.platforms            = { :ios => "7.1", :osx => "10.9" }
   s.source               = { :git => "https://github.com/skylarsch/SSPostmark.git", :tag => s.version.to_s }
   s.source_files         = "SSPostmark/SSPostmark/**/*.{h,m}"
   s.private_header_files = "SSPostmark/SSPostmark/Private Headers/*.h"
